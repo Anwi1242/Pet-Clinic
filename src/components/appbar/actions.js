@@ -13,20 +13,20 @@ import { Colors } from "../../styles/theme";
             <MyList type= "row">
             <ListItemButton sx={{justifyContent:"center"}}>
                 <ListItemIcon sx={{display:"flex",justifyContent:"center",color:matches&& Colors.secondary}}>
-                    <ShoppingCartOutlinedIcon></ShoppingCartOutlinedIcon>
+                 
                     <Divider orientation="vertical" flexItem></Divider>
                 </ListItemIcon>
             </ListItemButton>
            
             <ListItemButton sx={{justifyContent:"center"}}>
                 <ListItemIcon sx={{display:"flex",justifyContent:"center",color:matches&& Colors.secondary}}>
-                    <PersonOutlineOutlinedIcon></PersonOutlineOutlinedIcon>
+                   
                     <Divider orientation="vertical" flexItem></Divider>
                 </ListItemIcon>
             </ListItemButton>
             <ListItemButton sx={{justifyContent:"center"}}>
                 <ListItemIcon sx={{display:"flex",justifyContent:"center",color:matches&& Colors.secondary}}>
-                    <FavoriteBorderOutlinedIcon></FavoriteBorderOutlinedIcon>
+                   
                     <Divider orientation="vertical" flexItem></Divider>
                 </ListItemIcon>
             </ListItemButton>
